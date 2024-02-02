@@ -1,0 +1,31 @@
+.product-list-container {
+  .col-width-small {
+    width: 90px;
+  }
+
+  .col-width-medium {
+    width: 180px;
+  }
+
+  .col-width-large {
+    width: 300px;
+  }
+
+  .img-adjust {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .border-none {
+    border: none;
+  }
+}
