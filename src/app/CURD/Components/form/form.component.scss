@@ -1,0 +1,80 @@
+.product-form {
+  max-width: 600px; // Limits form width
+  margin: 40px auto; // Centers form with top/bottom space
+  padding: 20px; // Adds padding inside the form
+  background-color: #ffffff; // White background for contrast
+  border: 1px solid #dee2e6; // Subtle border around the form
+  border-radius: 8px; // Rounded corners
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); // Soft shadow for depth
+}
+
+h1 {
+  text-align: center; // Centers the heading
+  font-size: 24px; // Sets font size for heading
+  margin-bottom: 20px; // Space below the heading
+}
+
+.form-group {
+  margin-bottom: 15px; // Space between form groups
+}
+
+label {
+  font-weight: bold; // Bold labels for better readability
+  margin-bottom: 5px; // Space between label and input
+  display: block; // Ensures label is on a new line
+}
+
+.form-control {
+  width: 100%; // Full-width inputs
+  padding: 10px; // Padding inside inputs
+  border: 1px solid #ced4da; // Default border color
+  border-radius: 5px; // Rounded corners for inputs
+  font-size: 14px; // Standard font size
+  transition: border-color 0.3s ease; // Smooth border transition
+
+  &:focus {
+      border-color: #80bdff; // Change border color on focus
+      box-shadow: 0 0 5px rgba(128, 189, 255, 0.5); // Subtle shadow on focus
+      outline: none; // Removes default outline
+  }
+}
+
+textarea {
+  resize: none; // Prevents resizing of the textarea
+}
+
+.form-buttons {
+  display: flex; // Use flexbox for button alignment
+  justify-content: flex-start; // Aligns buttons to the left
+  gap: 10px; // Space between buttons
+  margin-top: 15px; // Space above buttons
+}
+
+.btn {
+  padding: 10px 20px; // Padding for buttons
+  font-weight: 500; // Button text weight
+  border-radius: 5px; // Rounded corners for buttons
+  transition: background-color 0.3s, transform 0.3s; // Smooth transition for hover effects
+
+  &:hover {
+      transform: translateY(-2px); // Lift effect on hover
+  }
+}
+
+.btn-success {
+  background-color: #28a745; // Green background for success button
+  color: white; // White text color
+
+  &:hover {
+      background-color: #218838; // Darker green on hover
+  }
+}
+
+.btn-secondary {
+  background-color: #6c757d; // Grey background for secondary button
+  color: white; // White text color
+
+  &:hover {
+      background-color: #5a6268; // Darker grey on hover
+  }
+}
